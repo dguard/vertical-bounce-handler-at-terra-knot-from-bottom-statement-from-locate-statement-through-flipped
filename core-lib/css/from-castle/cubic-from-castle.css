@@ -1,0 +1,113 @@
+/* keep */
+
+.statement-at-front .from-sticked-album-from-castle-from-cubic {
+    margin-top: calc(-290px + 200px + 800px + 400px);
+    margin-left: calc(-470px + 400px + 100px + 50px);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-profile-row img {
+    background-size: initial;
+    width: 80px;
+    border: calc(1px + .9px) solid #556b2f;
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-profile-row {
+    margin-left: -20px;
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic img {
+    background-size: initial;
+    width: 40px;
+    height: 34px;
+    border: calc(1px + .9px) solid #556b2f;
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .pointer-into-bottom-knot.from-row {
+    margin-top: 50px;
+}
+@keyframes hold {
+    0% {
+
+    }
+    25% {
+
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+    }
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .put-up-bottom-statement.from-profile-row {
+    margin-left: -70px;
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .put-up-bottom-statement.from-profile-row .from-knot.hold img {
+    transform: scale(0.9);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .put-up-bottom-statement.from-profile-row .from-knot.hold {
+    background: #556b2f;
+}
+
+.statement-at-front .from-sticked-album-from-castle-from-cubic .pointer-into-bottom-knot.from-row .from-knot.hold img {
+    transform: scale(0.9);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .pointer-into-bottom-knot.from-row .from-knot.hold {
+    background: #556b2f;
+}
+
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-pointer-belongings.from-row .from-knot.hold img {
+    transform: scale(0.9);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-pointer-belongings.from-row .from-knot.hold {
+    background: #556b2f;
+}
+/* keep */
+.statement-at-front .from-sticked-album-from-castle-from-cubic .pointer-into-bottom-statement.from-row .from-knot.hold img {
+    transform: scale(0.9);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .pointer-into-bottom-statement.from-row .from-knot.hold {
+    background: #556b2f;
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .pointer-into-bottom-statement.from-row {
+    margin-top: 50px;
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .pointer-into-knot.from-row .from-knot.hold img {
+    transform: scale(0.9);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .pointer-into-knot.from-row .from-knot.hold {
+    background: #556b2f;
+}
+/* keep !*/
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-row .from-knot:nth-child(6) {
+    margin-top: calc(-30px * 0.5);
+    margin-left: calc(20px * 0.5);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-row .from-knot:nth-child(5) {
+    margin-top: calc(-50px * 0.5);
+    margin-left: calc(20px * 0.5);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-row .from-knot:nth-child(4) {
+    margin-top: calc(-20px * 0.5);
+    margin-left: calc(40px * 0.5);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-row .from-knot:nth-child(3) {
+    margin-top: calc(-10px * 0.5);
+    margin-left: calc(20px * 0.5);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-row .from-knot:nth-child(2) {
+    margin-top: calc(-40px * 0.5);
+    margin-left: calc(20px * 0.5);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-row .from-knot:nth-child(1) {
+    margin-left: calc(20px * 0.5);
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .from-row {
+    margin-top: calc(70px * 0.5);
+    display: flex;
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic {
+    position: absolute;
+    left: 920px; /* +200 */
+    top: 720px;
+}
+.statement-at-front .from-sticked-album-from-castle-from-cubic .sample {
+    background: url("core-lib/img/img.png") no-repeat;
+    width: 45px;
+    height: 39px;
+}

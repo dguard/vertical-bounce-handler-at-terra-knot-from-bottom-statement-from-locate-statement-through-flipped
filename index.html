@@ -1,0 +1,1924 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="core-lib/css/sticked-album-from-character.css" />
+    <link rel="stylesheet" href="core-lib/css/statement-at-front-stacked-from-bottom.css" />
+    <link rel="stylesheet" href="core-lib/css/statement-at-front-stacked.css" />
+
+    <link rel="stylesheet" href="core-lib/css/from-castle/cubic-from-castle.css" />
+    <link rel="stylesheet" href="core-lib/css/from-castle/circular-cubic-from-castle.css" />
+    <style>
+        .eye {
+            margin-left: -200px;
+        }
+        body {
+            margin: 0;
+        }
+        /* updates-stack */
+        /* use sticked-album-in-queued-sequence */
+        /* keep! */
+        .eye-through-flipped {
+            margin-left: 200px;
+        }
+        .statement-area {
+
+        }
+        .eye-through-scene {
+            margin-left: -100px;
+
+            /* keep */
+            margin-top: -200px;
+        }
+        .statement-at-front .castle-from-eye {
+            margin-top: -250px;
+            width: 700px;
+
+            margin-left: 100px;
+        }
+        .statement-at-front .castle-from-eye-from-circle-on-paper {
+            margin-top: -550px;
+            width: 700px;
+        }
+        .statement-at-front .castle-from-eye-from-profile {
+            margin-top: calc(-550px /* keep 300 */ - 200px);
+            width: 700px;
+        }
+        .statement-at-front .castle-from-eye-from-terra-knot {
+            margin-top: calc(-550px /* keep 300 */ - 200px - 100px + 400px + 400px);
+            width: 700px;
+        }
+        .statement-at-front .castle-from-eye-from-front {
+            /* keep */
+            /*margin-top: -750px;*/
+            margin-top: calc(200px + 250px);
+            width: 700px;
+
+            /*margin-left: 100px;*/
+        }
+        .statement-at-front .from-character-circuit {
+            margin-bottom: 70px;
+        }
+        .statement-at-front .from-map-from-computed {
+            width: 770px;
+            /* keep */
+            margin-bottom: -150px;
+            margin-left: 440px;
+        }
+        .statement-at-front .from-character-from-constructed {
+            width: 990px;
+            margin-left: calc(300px + 40px);
+            margin-bottom: -170px;
+        }
+        .statement-at-front .from-map {
+            /*  keep */
+            width: 870px;
+            /* keep */
+            height: auto;
+            margin-left: 470px;
+            margin-bottom: -200px;
+        }
+        .statement-at-front .from-bottom-map {
+            /* keep */
+            width: 870px;
+            height: auto;
+            margin-left: 470px;
+            /*margin-bottom: -200px;*/
+        }
+        .statement-at-front .from-bottom-map-from-bounced {
+            /* keep */
+            width: 870px;
+            height: auto;
+            margin-left: 470px;
+            /*margin-bottom: -200px;*/
+        }
+        .statement-at-front .from-character-flipped {
+            /* keep */
+            width: 870px;
+            height: auto;
+            margin-left: 470px;
+            /*margin-bottom: -200px;*/
+        }
+        .statement-at-front .from-bottom-map-from-character-flipped {
+            /* keep */
+            width: 870px;
+            height: auto;
+            margin-left: 470px;
+            /*margin-bottom: -200px;*/
+        }
+        .statement-at-front .from-bottom-map-flipped-from-bounced {
+            /* keep */
+            width: 870px;
+            height: auto;
+            margin-left: 410px;
+            margin-top: 200px;
+            margin-bottom: -100px;
+        }
+        .statement-at-front .from-bottom-map-flipped {
+            /* keep */
+            width: 870px;
+            height: auto;
+            margin-left: 470px;
+            margin-top: 200px;
+            /*margin-bottom: -200px;*/
+        }
+        .statement-at-front #scene {
+            width: 100vw;
+            /* height: 100vh; */
+            height: calc(570vh + 100vh + 100vh + 100vh);
+
+            margin-top: calc(-400px - 300px - 100px /* - 100px - 50px */ - 500px - 200px /* keep */ - 400px - 200px /* keep */ - 400px - 200px - 200px - 100px /* keep */ + 400px + 400px + 100px /* keep */ - 800px - 400px /* keep */ - 400px - 200px + 100px - 100px + 200px + 200px + 200px + 200px + 100px - 200px - 100px /* keep */ - 700px /* keep */ - 700px /* keep */ - 700px /* keep */ - 700px /* keep */ /* - 400px */);
+            margin-left: 100px;
+        }
+        .statement-at-front .from-sticked-album {
+            margin-top: calc(-240px + 700px + 400px + 400px /* keep */ + 800px + 400px + 200px + 700px);
+            margin-left: 110px;
+        }
+        .statement-at-front .from-sticked-album .from-profile-row img {
+            background-size: initial;
+            width: 60px;
+            border: calc(1px + .9px) solid #007a7b;
+        }
+        .statement-at-front .from-sticked-album .from-profile-row {
+            margin-left: -20px;
+        }
+        .statement-at-front .from-sticked-album img {
+            background-size: initial;
+            width: 40px;
+            height: 34px;
+            border: calc(1px + .9px) solid #007a7b;
+        }
+        .statement-at-front .from-sticked-album .pointer-into-bottom-knot.from-row {
+            margin-top: 50px;
+        }
+        @keyframes hold {
+            0% {
+
+            }
+            25% {
+
+            }
+            50% {
+                transform: scale(0.9);
+            }
+            100% {
+            }
+        }
+        .statement-at-front .from-sticked-album .put-up-bottom-statement.from-profile-row .from-knot.hold img {
+            transform: scale(0.9);
+        }
+        .statement-at-front .from-sticked-album .put-up-bottom-statement.from-profile-row .from-knot.hold {
+            background: #007a7b;
+        }
+        .statement-at-front .from-sticked-album .from-pointer-belongings.from-row .from-knot.hold img {
+            transform: scale(0.9);
+        }
+        .statement-at-front .from-sticked-album .from-pointer-belongings.from-row .from-knot.hold {
+            background: #007a7b;
+        }
+        /* keep */
+        .statement-at-front .from-sticked-album .pointer-into-bottom-statement.from-row .from-knot.hold img {
+            transform: scale(0.9);
+        }
+        .statement-at-front .from-sticked-album .pointer-into-bottom-statement.from-row .from-knot.hold {
+            background: #007a7b;
+        }
+        .statement-at-front .from-sticked-album .pointer-into-bottom-statement.from-row {
+            margin-top: 50px;
+        }
+        .statement-at-front .from-sticked-album .pointer-into-knot.from-row .from-knot.hold img {
+            transform: scale(0.9);
+        }
+        .statement-at-front .from-sticked-album .pointer-into-knot.from-row .from-knot.hold {
+            background: #007a7b;
+        }
+        /* keep !*/
+        .statement-at-front .from-sticked-album .from-row .from-knot:nth-child(6) {
+            margin-top: calc(-30px * 0.5);
+            margin-left: calc(20px * 0.5);
+        }
+        .statement-at-front .from-sticked-album .from-row .from-knot:nth-child(5) {
+            margin-top: calc(-50px * 0.5);
+            margin-left: calc(20px * 0.5);
+        }
+        .statement-at-front .from-sticked-album .from-row .from-knot:nth-child(4) {
+            margin-top: calc(-20px * 0.5);
+            margin-left: calc(40px * 0.5);
+        }
+        .statement-at-front .from-sticked-album .from-row .from-knot:nth-child(3) {
+            margin-top: calc(-10px * 0.5);
+            margin-left: calc(20px * 0.5);
+        }
+        .statement-at-front .from-sticked-album .from-row .from-knot:nth-child(2) {
+            margin-top: calc(-40px * 0.5);
+            margin-left: calc(20px * 0.5);
+        }
+        .statement-at-front .from-sticked-album .from-row .from-knot:nth-child(1) {
+            margin-left: calc(20px * 0.5);
+        }
+        .statement-at-front .from-sticked-album .from-row {
+            margin-top: calc(70px * 0.5);
+            display: flex;
+        }
+        .statement-at-front .from-sticked-album {
+            position: absolute;
+            left: 920px; /* +200 */
+            top: 720px;
+        }
+        .statement-at-front .from-sticked-album .sample {
+            background: url("core-lib/img/img.png") no-repeat;
+            width: 45px;
+            height: 39px;
+        }
+        .statement-at-front > img {
+            margin-left: 470px;
+            width: 400px;
+        }
+
+        .statement-at-front .from-knot-sample-from-character {
+            margin-top: calc(-400px - 400px - 100px /* keep */ + 400px + 100px + 200px + 100px);
+            visibility: hidden;
+        }            
+        .statement-at-front .from-knot-sample-from-character .knot-from-construction-perspective {
+            width: 700px;
+
+            max-height: 250px;
+
+            width: auto;
+            margin: auto;
+
+            display: block;
+
+            margin-left: 510px;
+        }
+        .statement-at-front .from-knot-sample-from-character .knot-from-construction-viewport {
+            width: 700px;
+
+            max-height: 250px;
+
+            width: auto;
+            margin: auto;
+
+            display: block;
+
+            margin-left: 510px;
+        }
+        .statement-at-front .from-knot-sample-from-character .knot-from-viewported-map {
+            width: 700px;
+
+            max-height: 250px;
+
+            width: auto;
+            margin: auto;
+
+            display: block;
+
+            margin-left: 510px;
+        }
+        .statement-at-front .from-knot-sample-from-character .knot-from-character-flipped {
+            width: 700px;
+
+            max-height: 250px;
+
+            width: auto;
+            margin: auto;
+
+            display: block;
+
+            margin-left: 510px;
+        }
+
+
+        .statement-at-front .from-knot-sample {
+            margin-top: calc(-400px - 400px - 100px /* keep */ + 400px + 200px);
+        }
+        .statement-at-front .from-knot-sample .knot-from-front {
+            width: 700px;
+
+            max-height: 250px;
+
+            width: auto;
+            margin: auto;
+            display: block;
+
+            margin-left: 510px;
+        }
+        .statement-at-front .from-knot-sample .knot-from-bottom {
+            width: 700px;
+
+            max-height: 250px;
+
+            width: auto;
+            margin: auto;
+
+            display: block;
+
+            margin-left: 510px;
+        }
+        .statement-at-front .from-knot-sample .knot-from-terra-bottom {
+            width: 700px;
+
+            max-height: 250px;
+
+            width: auto;
+            margin: auto;
+
+            display: block;
+
+            margin-left: 510px;
+        }
+        .statement-at-front .from-knot-sample .knot-from-perspective {
+            width: 700px;
+
+            max-height: 250px;
+
+            width: auto;
+            margin: auto;
+
+            display: block;
+
+            margin-left: 510px;
+        }
+        .statement-at-front .from-knot-sample .knot-from-terra {
+            width: 700px;
+
+            max-height: 250px;
+
+            width: auto;
+            margin: auto;
+
+            display: block;
+
+            margin-left: 510px;
+        }
+
+        .statement-from-bounced {
+            position: relative;
+            /*transform: scale(0.4);*/
+        }
+        .statement-from-bounced .pointer-belongings-at-knot {
+            /* keep */
+            /* updates-stack */
+            /* keep ! */
+
+            position: absolute;
+            /* keep ! */
+            left: 50%;
+            top: 50%;
+            /* keep !*/
+
+            width: 70px;
+            height: 70px;
+            background: url("core-lib/img/pointer-belongings-at-knot.png") no-repeat;
+            margin-top: -35px;
+            /*transform: scale(0.4);*/
+            /*border: calc(2px * 2 * 2) solid;*/
+        }
+        .through-flipped-pointer-belongings {
+            margin-left: calc(200px - 7px);
+        }
+        .statement-from-bounced .pointer-belongings-at-knot .pointer-belongings {
+            margin: auto;
+            width: calc(70px * 0.7 * 0.5);
+            height: calc(70px * 2 * 1.4);
+
+            /*border: calc(2px * 2 * 2) solid #222;*/
+            /*background: #888;*/
+            margin-top: calc(-70px * 2 * 1.1);
+        }
+
+    </style>
+</head>
+<body class="eye">
+
+<!-- keep ! -->
+    <!--    <script src="core-lib/js/viewported-knot-at-locate-knot-from-bottom-statement/draft-handle-knot-from-cubic-project.js"></script>-->
+    <script src="core-lib/js/viewported-knot-at-knot-locate-from-bottom-statement/draft-compact-knot-locate-from-cubic-project.js"></script>
+    <script src="core-lib/js/viewported-knot-at-knot-locate-from-bottom-statement/draft-knot-locate-from-cubic-project.js"></script>
+    <script src="core-lib/js/viewported-knot-at-knot-locate-from-bottom-statement/handle-knot-locate-from-cubic-project.js"></script>
+
+    <!-- keep ! -->
+<!-- updates stack -->
+
+    <!-- <script src="core-lib/knot-pointer-belongings-from-bottom-statement-from-closing/draft-handle-knot-pointer-belongings-from-bottom-statement-from-closing.js"></script> -->
+    <script src="core-lib/knot-pointer-belongings-from-bottom-statement-from-closing/draft-compact-knot-pointer-belongings-from-bottom-statement-from-closing.js"></script>
+    <script src="core-lib/knot-pointer-belongings-from-bottom-statement-from-closing/draft-knot-pointer-belongings-from-bottom-statement-from-closing.js"></script>
+    <script src="core-lib/knot-pointer-belongings-from-bottom-statement-from-closing/handle-knot-pointer-belongings-from-bottom-statement-from-closing.js"></script>
+
+    <!-- <script src="core-lib/knot-bottom-map-flipped/draft-handle-knot-bottom-map-flipped.js"></script> -->
+    <script src="core-lib/knot-bottom-map-flipped/draft-compact-knot-bottom-map-flipped.js"></script>
+    <script src="core-lib/knot-bottom-map-flipped/draft-knot-bottom-map-flipped.js"></script>
+    <script src="core-lib/knot-bottom-map-flipped/handle-knot-bottom-map-flipped.js"></script>
+
+    <!-- <script src="core-lib/knot-from-stacking-bottom-map/draft-handle-knot-from-stacking-bottom-map.js"></script> -->
+    <script src="core-lib/knot-from-stacking-bottom-map/draft-compact-knot-from-stacking-bottom-map.js"></script>
+    <script src="core-lib/knot-from-stacking-bottom-map/draft-knot-from-stacking-bottom-map.js"></script>
+    <script src="core-lib/knot-from-stacking-bottom-map/handle-knot-from-stacking-bottom-map.js"></script>
+
+    <!-- <script src="core-lib/knot-from-character-from-bottom-map/draft-handle-knot-from-character-from-bottom-map.js"></script> -->
+    <script src="core-lib/knot-from-character-from-bottom-map/draft-compact-knot-from-character-from-bottom-map.js"></script>
+    <script src="core-lib/knot-from-character-from-bottom-map/draft-knot-from-character-from-bottom-map.js"></script>
+    <script src="core-lib/knot-from-character-from-bottom-map/handle-knot-from-character-from-bottom-map.js"></script>
+
+    <!-- <script src="core-lib/knot-bottom-map/draft-handle-knot-bottom-map.js"></script> -->
+    <script src="core-lib/knot-bottom-map/draft-compact-knot-bottom-map.js"></script>
+    <script src="core-lib/knot-bottom-map/draft-knot-bottom-map.js"></script>
+    <script src="core-lib/knot-bottom-map/handle-knot-bottom-map.js"></script>
+
+    <script src="core-lib/knot-draft-character/draft-handle-knot-character.js" ></script>
+    <script src="core-lib/knot-draft-character/draft-compact-knot-character.js"></script>
+    <script src="core-lib/knot-draft-character/draft-knot-character.js" ></script>
+    <script src="core-lib/knot-draft-character/handle-knot-character.js" ></script>
+
+    <!-- <script src="core-lib/js/knot-tower-from-castle/draft-handle-knot-tower-from-castle.js"></script> -->
+    <script src="core-lib/knot-tower-from-castle/draft-compact-knot-tower-from-castle.js"></script>
+    <script src="core-lib/knot-tower-from-castle/draft-knot-tower-from-castle.js"></script>
+    <script src="core-lib/knot-tower-from-castle/handle-knot-tower-from-castle.js"></script>
+    
+    <!-- <script src="core-lib/knot-cubic/draft-handle-knot-cubic.js"></script> -->
+    <script src="core-lib/knot-cubic/draft-compact-knot-cubic.js"></script>
+    <script src="core-lib/knot-cubic/draft-knot-cubic.js"></script>
+    <script src="core-lib/knot-cubic/handle-knot-cubic.js"></script>
+
+    <!-- <script src="core-lib/knot-bottom-statement/draft-handle-knot-bottom-statement.js"></script> -->
+    <script src="core-lib/knot-bottom-statement/draft-compact-knot-bottom-statement.js"></script>
+    <script src="core-lib/knot-bottom-statement/draft-knot-bottom-statement.js"></script>
+    <script src="core-lib/knot-bottom-statement/handle-knot-bottom-statement.js"></script>
+
+
+    <!-- <script src="core-lib/knot-profile/draft-handle-knot-profile.js"></script> -->
+    <script src="core-lib/knot-profile/draft-compact-knot-profile.js"></script>
+    <script src="core-lib/knot-profile/draft-knot-profile.js"></script>
+    <script src="core-lib/knot-profile/handle-knot-profile.js"></script>
+
+
+    <!-- <script src="core-lib/knot-front/draft-handle-knot-front.js"></script> -->
+    <script src="core-lib/knot-front/draft-compact-knot-front.js"></script>
+    <script src="core-lib/knot-front/draft-knot-front.js"></script>
+    <script src="core-lib/knot-front/handle-knot-front.js"></script>
+
+
+    <!-- <script src="core-lib/knot-double-stacked-pointer/draft-handle-knot-double-stacked-pointer.js"></script> -->
+    <script src="core-lib/knot-double-stacked-pointer/draft-compact-knot-double-stacked-pointer.js"></script>
+    <script src="core-lib/knot-double-stacked-pointer/draft-knot-double-stacked-pointer.js"></script>
+    <script src="core-lib/knot-double-stacked-pointer/handle-knot-double-stacked-pointer.js"></script>
+
+
+    <!--    <script src="core-lib/knot-pointer-belongings-from-profile-statement/draft-handle-knot-pointer-belongings-from-profile-statement.js"></script>-->
+    <script src="core-lib/js/knot-locate/knot-pointer-belongings/knot-pointer-belongings-from-profile-statement/draft-compact-knot-pointer-belongings-from-profile-statement.js"></script>
+    <script src="core-lib/js/knot-locate/knot-pointer-belongings/knot-pointer-belongings-from-profile-statement/draft-knot-pointer-belongings-from-profile-statement.js"></script>
+    <script src="core-lib/js/knot-locate/knot-pointer-belongings/knot-pointer-belongings-from-profile-statement/handle-knot-pointer-belongings-from-profile-statement.js"></script>
+
+    <script \></script>
+
+    <!-- keep -->
+    <script src="core-lib/knot-locate-from-front/knot-locate-from-bottom-statement/viewported-knot-at-protected-scene.js"></script>
+    <script src="core-lib/knot-locate-from-front/knot-locate-from-bottom-statement/viewported-knot-at-protected-viewport.js"></script>
+    <script src="core-lib/knot-locate-from-front/knot-locate-from-bottom-statement/viewported-knot-at-pub.js"></script>
+
+    <!--    <script src="core-lib/knot-locate-from-bottom-statement/draft-handle-knot-locate-from-bottom-statement.js"></script>-->
+    <script src="core-lib/knot-locate-from-front/knot-locate-from-bottom-statement/draft-compact-knot-locate-from-bottom-statement.js"></script>
+    <script src="core-lib/knot-locate-from-front/knot-locate-from-bottom-statement/draft-knot-locate-from-bottom-statement.js"></script>
+    <script src="core-lib/knot-locate-from-front/knot-locate-from-bottom-statement/handle-knot-locate-from-bottom-statement.js"></script>
+    <!-- keep -->
+
+<!--    <script src="core-lib/knot-pointer-belongings-from-front-statement/draft-handle-knot-pointer-belongings-from-front-statement.js"></script>-->
+    <script src="core-lib/js/knot-locate/knot-pointer-belongings/knot-pointer-belongings-from-front-statement/draft-compact-knot-pointer-belongings-from-front-statement.js"></script>
+    <script src="core-lib/js/knot-locate/knot-pointer-belongings/knot-pointer-belongings-from-front-statement/draft-knot-pointer-belongings-from-front-statement.js"></script>
+    <script src="core-lib/js/knot-locate/knot-pointer-belongings/knot-pointer-belongings-from-front-statement/handle-knot-pointer-belongings-from-front-statement.js"></script>
+
+<!--    <script src="core-lib/knot-pointer-belongings-from-bottom-statement/draft-handle-knot-pointer-belongings-from-bottom-statement.js"></script>-->
+    <script src="core-lib/js/knot-locate/knot-pointer-belongings-from-bottom-statement/draft-compact-knot-pointer-belongings-from-bottom-statement.js"></script>
+    <script src="core-lib/js/knot-locate/knot-pointer-belongings-from-bottom-statement/draft-knot-pointer-belongings-from-bottom-statement.js"></script>
+    <script src="core-lib/js/knot-locate/knot-pointer-belongings-from-bottom-statement/handle-knot-pointer-belongings-from-bottom-statement.js"></script>
+
+<!--    <script src="core-lib/knot-locate-sticked-from-bottom-statement/draft-handle-knot-locate-sticked-from-bottom-statement.js"></script>-->
+    <script src="core-lib/js/knot-locate-sticked-from-bottom-statement/draft-compact-knot-locate-sticked-from-bottom-statement.js"></script>
+    <script src="core-lib/js/knot-locate-sticked-from-bottom-statement/draft-knot-locate-sticked-from-bottom-statement.js"></script>
+    <script src="core-lib/js/knot-locate-sticked-from-bottom-statement/handle-knot-locate-sticked-from-bottom-statement.js"></script>
+
+
+<!--    <script src="core-lib/js/viewported-knot-at-knot-labirint/draft-handle.js"></script>-->
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint/draft-compact-at-bounced.js"></script>
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint/draft-at-bounced.js"></script>
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint/handle-at-bounced.js"></script>
+
+<!--    <script src="core-lib/js/viewported-knot-at-knot-labirint-from-bottom-statement/draft-handle-knot-from-cubic-project.js"></script>-->
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint-from-bottom-statement/draft-compact-knot-labirint-from-bottom-statement.js"></script>
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint-from-bottom-statement/draft-knot-labirint-from-bottom-statement.js"></script>
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint-from-bottom-statement/handle-knot-labirint-from-bottom-statement.js"></script>
+
+<!--    <script src="core-lib/js/knot-labirint/draft-handle-knot-labirint.js"></script>-->
+    <script src="core-lib/js/terra-knot/knot-labirint/draft-compact-knot-labirint.js"></script>
+    <script src="core-lib/js/terra-knot/knot-labirint/draft-knot-labirint.js"></script>
+    <script src="core-lib/js/terra-knot/knot-labirint/handle-knot-labirint.js"></script>
+
+    <!-- bind-stack -->
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint/draft-compact.js"></script>
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint/viewported-knot-at-protected-scene.js"></script>
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint/viewported-knot-at-protected-viewport.js"></script>
+    <script src="core-lib/js/terra-knot/viewported-knot-at-knot-labirint/viewported-knot-at-pub.js"></script>
+
+<!--    <script src="core-lib/viewported-terra-knot/draft-handle-terra-knot.js"></script>-->
+    <script src="core-lib/js/terra-knot/viewported-terra-knot-from-bottom-statement/draft-compact-terra-knot-from-bottom-statement.js"></script>
+    <script src="core-lib/js/terra-knot/viewported-terra-knot-from-bottom-statement/draft-terra-knot-from-bottom-statement.js"></script>
+    <script src="core-lib/js/terra-knot/viewported-terra-knot-from-bottom-statement/handle-terra-knot-from-bottom-statement.js"></script>
+
+    <!-- bind -->
+    <!--    <script src="core-lib/knot-locate-from-front/knot-locate-from-front/draft-handle-knot-locate-from-front.js"></script>-->
+    <script src="core-lib/knot-locate-from-front/knot-locate-from-front/draft-compact-knot-locate-from-front.js"></script>
+    <script src="core-lib/knot-locate-from-front/knot-locate-from-front/draft-knot-locate-from-front.js"></script>
+    <script src="core-lib/knot-locate-from-front/knot-locate-from-front/handle-knot-locate-from-front.js"></script>
+
+    <!-- keep -->
+    <script src="core-lib/viewported-knot-locate-from-front/viewported-knot-at-protected-scene.js"></script>
+    <script src="core-lib/viewported-knot-locate-from-front/viewported-knot-at-protected-viewport.js"></script>
+    <script src="core-lib/viewported-knot-locate-from-front/viewported-knot-at-pub.js"></script>
+    <!-- keep -->
+
+    <!-- <script src="core-lib/knot-locate-draftar-from-front/draft-handle-knot-locate-draftar-from-bottom-statement.js"></script> -->
+    <script src="core-lib/knot-locate-draftar-from-front/draft-compact-knot-locate-draftar-from-bottom-statement.js"></script>
+    <script src="core-lib/knot-locate-draftar-from-front/draft-knot-locate-draftar-from-bottom-statement.js"></script>
+    <script src="core-lib/knot-locate-draftar-from-front/handle-knot-locate-draftar-from-bottom-statement.js"></script>
+
+    <script src="core-lib/knot-locate-draftar-from-front/viewported-knot-at-protected-scene.js"></script>
+    <script src="core-lib/knot-locate-draftar-from-front/viewported-knot-at-protected-viewport.js"></script>
+    <script src="core-lib/knot-locate-draftar-from-front/viewported-knot-at-pub.js"></script>
+
+    <!-- keep -->
+    <script src="core-lib/viewported-knot-locate-draftar-from-front/draft-handle-knot-locate-draftar-from-front.js"></script>
+    <script src="core-lib/viewported-knot-locate-draftar-from-front/draft-compact-knot-locate-draftar-from-front.js"></script>
+    <script src="core-lib/viewported-knot-locate-draftar-from-front/draft-knot-locate-draftar-from-front.js"></script>
+    <script src="core-lib/viewported-knot-locate-draftar-from-front/handle-knot-locate-draftar-from-front.js"></script>
+
+
+<!--    <script src="core-lib/viewported-knot-locate-from-front/draft-handle-viewported-knot-locate-from-front.js"></script>-->
+    <script src="core-lib/viewported-knot-locate-from-front/draft-compact-viewported-knot-locate-from-front.js"></script>
+    <script src="core-lib/viewported-knot-locate-from-front/draft-viewported-knot-locate-from-front.js"></script>
+    <script src="core-lib/viewported-knot-locate-from-front/handle-viewported-knot-locate-from-front.js"></script>
+
+    <!-- keep ! -->
+
+    <div class="statement-area">
+        <div class="statement-from-bounced">
+            <!-- keep .eye-through-flipped -->
+            <div class="pointer-belongings-at-knot through-flipped-pointer-belongings">
+                <div class="pointer-belongings"></div>
+            </div>
+        </div>
+        <div class="statement-from-knot-use">
+
+            <!-- <input class="knot-use-upload-knot-constructed" type="file" hidden> -->
+
+            <input class="knot-use-upload-knot-construction-perspective" type="file" hidden>
+            <input class="knot-use-upload-knot-construction-viewport" type="file" hidden>
+            <input class="knot-use-upload-knot-viewported-map" type="file" hidden>
+            <input class="knot-use-upload-knot-character" type="file" hidden>
+            <!-- keep  -->
+
+            <input class="knot-use-upload-knot-constructed" type="file" hidden>
+
+            <input class="knot-use-upload-front" type="file" hidden>
+
+            <input class="knot-use-upload-bottom" type="file" hidden>
+        </div>
+        <div class="statement-at-front">
+            <img src="core-lib/img/terra-knot-from-bottom-statement-from-locate.png">
+            
+            <img class="castle-from-eye" src="core-lib/img/castle.png">
+            <img class="castle-from-eye-from-circle-on-paper" src="core-lib/img/castle-from-circle-on-paper.png">
+
+            <img class="castle-from-eye-from-profile" src="core-lib/img/castle-from-profile.png">
+
+            
+             <!-- <img class="from-character-circuit" src="core-lib/img/from-character-circuit.png" />  -->
+              <!-- <img class="from-map-from-computed" src="core-lib/img/map-from-computed.png" /> -->
+              <!-- <img class="from-character-from-constructed" src="core-lib/img/character-from-constructed.png" /> -->
+
+              <img class="from-bottom-map-flipped-from-bounced" src="core-lib/img/knot-from-bottom-map-flipped-from-bounced/bottom_map_flipped_from_character_img_1.png" />
+
+              <!-- <img class="from-bottom-map-flipped" src="core-lib/img/knot-from-bottom-map-flipped/bottom_map_flipped_from_character_img_1.png" /> -->
+
+              <img class="from-bottom-map-from-character-flipped" src="core-lib/img/knot-from-character-flipped-from-bottom-map/bottom_map_from_character_flipped_img_1.png" />
+              <img class="from-character-flipped" src="core-lib/img/knot-from-character-from-flipped/character_flipped_img_1.png" />
+
+              <img class="from-bottom-map-from-bounced" src="core-lib/img/knot-from-bottom-map-from-bounced/img_1.png" />
+              <!-- <img class="from-bottom-map" src="core-lib/img/knot-from-bottom-map/img_1.png" /> -->
+
+              <img class="from-map" src="core-lib/img/map-from-computed.png" />
+
+
+            <div class="from-knot-sample-from-character">
+                <!-- keep -->
+                <img class="knot-from-construction-perspective" src="core-lib/img/knot-sample.png" />
+                <img class="knot-from-construction-viewport" src="core-lib/img/knot-sample.png" />
+                <img class="knot-from-viewported-map" src="core-lib/img/knot-sample.png" />
+                <img class="knot-from-character-flipped" src="core-lib/img/knot-sample.png" />
+                <!-- from-knot-from-character -->
+            </div>
+
+
+
+            <img class="castle-from-eye-from-front" src="core-lib/img/castle-from-front.png">
+
+            <!-- keep -->
+
+            <div class="from-knot-sample">
+                <!-- knot-from-walking -->
+                <img class="knot-from-front" src="core-lib/img/knot-sample.png" />
+                <img class="knot-from-bottom" src="core-lib/img/knot-sample.png" />
+
+
+                <img class="knot-from-terra-bottom" src="core-lib/img/knot-sample.png" />
+                <img class="knot-from-perspective" src="core-lib/img/knot-sample.png" />
+                <img class="knot-from-terra" src="core-lib/img/knot-sample.png" />
+                
+            </div>
+
+            <!-- <img class="castle-from-eye-from-terra-knot" src="core-lib/img/castle-from-terra-knot.png" /> -->
+            
+            <!-- keep .eye-through-flipped -->
+            <div class="isometric eye-through-flipped">
+                <div class="from-bottom-projection eye-through-scene">
+
+
+                    <div class="from-sticked-album-from-character">
+                        <!-- there we need to care about structure and about logic -->
+                        <!-- we are starting from bottom-statement when structure tries to go into logic -->
+                        <div class="put-up-bottom-statement from-profile-row from-profile-row from-row">
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                        </div>
+
+
+                        <div class="pointer-into-bottom-knot into-bottom-knot-from-pointer from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-knot-from-pointer/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-knot-from-pointer/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-knot-from-pointer/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-knot-from-pointer/img_4.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-bottom-statement into-bottom-statement from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-statement/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-statement/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-statement/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-statement/img_4.png">
+                            </div>
+
+                        </div>
+                        <div class="pointer-into-front from-pointer-belongings from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_5.png">
+                            </div>
+                            <!-- keep -->
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_6.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-knot from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_5.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_6.png">
+                            </div>
+                        </div>
+
+<!--                        <div class="sample"></div>-->
+                    </div>
+
+                    <div class="from-sticked-album-from-castle-from-circular-cubic">
+                        <!-- there we need to care about structure and about logic -->
+                        <!-- we are starting from bottom-statement when structure tries to go into logic -->
+                        <div class="put-up-bottom-statement from-profile-row from-profile-row from-row">
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                        </div>
+
+
+                        <div class="pointer-into-bottom-knot into-bottom-knot-from-pointer from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-knot-from-pointer/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-knot-from-pointer/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-knot-from-pointer/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-knot-from-pointer/img_4.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-bottom-statement into-bottom-statement from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-statement/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-statement/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-statement/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-bottom-statement/img_4.png">
+                            </div>
+
+                        </div>
+                        <div class="pointer-into-front from-pointer-belongings from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_5.png">
+                            </div>
+                            <!-- keep -->
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/from-pointer-belongings/img_6.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-knot from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_5.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-circular-cubic/into-knot/img_6.png">
+                            </div>
+                        </div>
+
+<!--                        <div class="sample"></div>-->
+                    </div>
+
+                    <div class="from-sticked-album-from-castle-from-cubic">
+                        <!-- there we need to care about structure and about logic -->
+                        <!-- we are starting from bottom-statement when structure tries to go into logic -->
+                        <div class="put-up-bottom-statement from-profile-row from-profile-row from-row">
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                        </div>
+
+
+                        <div class="pointer-into-bottom-knot into-bottom-knot-from-pointer from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-bottom-statement into-bottom-statement from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-bottom-statement/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-bottom-statement/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-bottom-statement/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-bottom-statement/img_4.png">
+                            </div>
+
+                        </div>
+                        <div class="pointer-into-front from-pointer-belongings from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/from-pointer-belongings/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/from-pointer-belongings/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/from-pointer-belongings/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/from-pointer-belongings/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/from-pointer-belongings/img_5.png">
+                            </div>
+                            <!-- keep -->
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/from-pointer-belongings/img_6.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-knot from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-knot/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-knot/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-knot/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-knot/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-knot/img_5.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-from-cubic/into-knot/img_6.png">
+                            </div>
+                        </div>
+
+<!--                        <div class="sample"></div>-->
+                    </div>
+
+                    <div class="from-sticked-album-stacked-from-bottom">
+                        <!-- there we need to care about structure and about logic -->
+                        <!-- we are starting from bottom-statement when structure tries to go into logic -->
+                        <div class="put-up-bottom-statement from-profile-row from-profile-row from-row">
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-bottom/img_1.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_3.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_4.png" />
+                            </div>
+                        </div>
+
+
+                        <div class="pointer-into-bottom-knot into-bottom-knot-from-pointer from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_4.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-bottom-statement into-bottom-statement from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-perspective/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-perspective/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-perspective/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-perspective/img_4.png">
+                            </div>
+
+                        </div>
+                        <div class="pointer-into-front from-pointer-belongings from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_5.png">
+                            </div>
+                            <!-- keep -->
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_6.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-knot from-bottom-statement from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_5.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_6.png">
+                            </div>
+                        </div>
+
+<!--                        <div class="sample"></div>-->
+                    </div>
+
+
+
+                    <div class="from-sticked-album-stacked">
+                        <!-- there we need to care about structure and about logic -->
+                        <!-- we are starting from bottom-statement when structure tries to go into logic -->
+                        <div class="put-up-bottom-statement from-profile-row from-profile-row from-row">
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-bottom/img_1.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_3.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_4.png" />
+                            </div>
+                        </div>
+
+
+                        <div class="pointer-into-bottom-knot into-bottom-knot-from-pointer from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra-bottom/img_4.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-bottom-statement into-bottom-statement from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-perspective/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-perspective/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-perspective/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-perspective/img_4.png">
+                            </div>
+
+                        </div>
+                        <div class="pointer-into-front from-pointer-belongings from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_5.png">
+                            </div>
+                            <!-- keep -->
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-terra/img_6.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-knot from-bottom-statement from-profile-row from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_5.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album-stacked/from-front/img_6.png">
+                            </div>
+                        </div>
+
+<!--                        <div class="sample"></div>-->
+                    </div>
+
+
+
+                    <div class="from-sticked-album">
+                        <!-- there we need to care about structure and about logic -->
+                        <!-- we are starting from bottom-statement when structure tries to go into logic -->
+                        <div class="put-up-bottom-statement from-profile-row from-row">
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-put-up-bottom-statement/img.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-put-up-bottom-statement/img_1.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-put-up-bottom-statement/img_2.png" />
+                            </div>
+                            <div class="from-profile-knot from-knot">
+                                <img src="core-lib/img/picto-put-up-bottom-statement/img_3.png" />
+                            </div>
+                        </div>
+
+
+                        <div class="pointer-into-bottom-knot into-bottom-knot-from-pointer from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-bottom-knot-from-pointer/img.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-bottom-knot-from-pointer/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-bottom-knot-from-pointer/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-bottom-knot-from-pointer/img_3.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-bottom-statement into-bottom-statement from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-bottom-statement/img.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-bottom-statement/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-bottom-statement/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-bottom-statement/img_3.png">
+                            </div>
+
+                        </div>
+                        <div class="pointer-into-front from-pointer-belongings from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-pointer-belongings/img.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-pointer-belongings/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-pointer-belongings/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-pointer-belongings/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-pointer-belongings/img_4.png">
+                            </div>
+                            <!-- keep -->
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/from-pointer-belongings/img_5.png">
+                            </div>
+                        </div>
+                        <div class="pointer-into-knot from-bottom-statement from-row">
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-knot/img.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-knot/img_1.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-knot/img_2.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-knot/img_3.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-knot/img_4.png">
+                            </div>
+                            <div class="from-knot">
+                                <img src="core-lib/img/picto-from-sticked-album/into-knot/img_5.png">
+                            </div>
+                        </div>
+
+<!--                        <div class="sample"></div>-->
+                    </div>
+                    <canvas id="scene"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // keep
+        let pencil = new Pencil()
+
+        // let ctx = document.querySelector('#scene').getContext('2d')
+        // ctx.beginPath()
+        // ctx.moveTo(100, 100)
+        // ctx.lineTo(200, 100)
+
+        // ctx.moveTo(200, 100)
+        // ctx.arcTo(200, 100, 400, 200, 12)
+
+        // ctx.stroke()
+
+        let draftFabrikk = new DraftFabrikk()
+
+        let bottomStatement = draftFabrikk.constructBottomStatement()
+        let sceneWalkingAroundLabirintAtStart = new SceneWalkingAroundLabirintAtStart()
+
+        // through bind
+        pencil.rememberSample(sceneWalkingAroundLabirintAtStart, new KnotLocateFromFront())
+        pencil.useScene(sceneWalkingAroundLabirintAtStart)
+
+        let knotLocateFromFront = pencil.constructKnot()
+        // keep up !
+        draftFabrikk.connectKnotToBottomStatement(bottomStatement, knotLocateFromFront)
+        pencil.putKnotConnectedToBottomStatement(knotLocateFromFront)
+        // keep
+
+        // keep
+        pencil.rememberSample(sceneWalkingAroundLabirintAtStart, new KnotLocateDraftarFromFront())
+        pencil.useScene(sceneWalkingAroundLabirintAtStart)
+
+        let knotLocateDraftarFromFront = pencil.constructKnot()
+        // keep up !
+        draftFabrikk.connectKnotToBottomStatement(bottomStatement, knotLocateDraftarFromFront)
+        pencil.putKnotConnectedToBottomStatement(knotLocateDraftarFromFront)
+
+        function KnotTowerFromCastle() {
+            let that = this
+
+            // keep !
+            let spawnedPointerBelongings = { y: 460.29801062650074, x: 29.984574863067234, z: 0.027998035964756942, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            // let spawnedPointerBelongings = { y: 508.427650910673, x: 112.49116883677065, z: 0.0347994541654302, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            let passThrough = window['@pencil/draft-knot-tower-from-castle']['passThrough']
+
+            that.passThrough = passThrough
+
+            that.spawnedPointerBelongings = spawnedPointerBelongings
+
+            // keep !
+        }
+
+        function KnotFromCharacterFromBottomMap() {
+            let that = this
+
+            // keep !
+            let spawnedPointerBelongings = { y: 460.29801062650074, x: 29.984574863067234, z: 0.027998035964756942, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            // let spawnedPointerBelongings = { y: 508.427650910673, x: 112.49116883677065, z: 0.0347994541654302, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            let passThrough = window['@pencil/draft-knot-from-character-from-bottom-map']['passThrough']
+
+            that.passThrough = passThrough
+
+            that.spawnedPointerBelongings = spawnedPointerBelongings
+        }
+
+        function KnotDraftCharacter() {
+            let that = this
+
+            // keep !
+            let spawnedPointerBelongings = { y: 460.29801062650074, x: 29.984574863067234, z: 0.027998035964756942, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            // let spawnedPointerBelongings = { y: 508.427650910673, x: 112.49116883677065, z: 0.0347994541654302, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            let passThrough = window['@pencil/draft-knot-character']['passThrough']
+
+            that.passThrough = passThrough
+
+            that.spawnedPointerBelongings = spawnedPointerBelongings
+        }
+
+        // keep
+        function KnotBottomMap() {
+            let that = this
+
+            // keep !
+            let spawnedPointerBelongings = { y: 460.29801062650074, x: 29.984574863067234, z: 0.027998035964756942, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            // let spawnedPointerBelongings = { y: 508.427650910673, x: 112.49116883677065, z: 0.0347994541654302, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            let passThrough = window['@pencil/draft-knot-bottom-map']['passThrough']
+
+            that.passThrough = passThrough
+
+            that.spawnedPointerBelongings = spawnedPointerBelongings
+        }
+
+        function KnotFromStackingBottomMap() {
+            let that = this
+
+            // keep !
+            let spawnedPointerBelongings = { y: 460.29801062650074, x: 29.984574863067234, z: 0.027998035964756942, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            // let spawnedPointerBelongings = { y: 508.427650910673, x: 112.49116883677065, z: 0.0347994541654302, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            let passThrough = window['@pencil/draft-knot-from-stacking-bottom-map']['passThrough']
+
+            that.passThrough = passThrough
+
+            that.spawnedPointerBelongings = spawnedPointerBelongings            
+        }
+
+        function KnotBottomMapFlipped() {
+            let that = this
+
+            // keep !
+            let spawnedPointerBelongings = { y: 460.29801062650074, x: 29.984574863067234, z: 0.027998035964756942, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            // let spawnedPointerBelongings = { y: 508.427650910673, x: 112.49116883677065, z: 0.0347994541654302, radius: 30, d: 0.9, f: 0.4, frontRatio: 1, debthScaleRatio: 1, frontScaleRatio: 1, profileScaleRatio: 1 }
+
+            let passThrough = window['@pencil/draft-knot-bottom-map-flipped']['passThrough']
+
+            that.passThrough = passThrough
+
+            that.spawnedPointerBelongings = spawnedPointerBelongings            
+        }
+
+        // knotLocateStickd
+        // knotLocate
+
+        pencil.rememberSample(sceneWalkingAroundLabirintAtStart, new KnotTowerFromCastle())
+        pencil.useScene(sceneWalkingAroundLabirintAtStart)
+
+        let knotTowerFromCastle = pencil.constructKnot()
+
+        // keep
+        draftFabrikk.connectKnotToBottomStatement(bottomStatement, knotTowerFromCastle)
+        pencil.putKnotConnectedToBottomStatement(knotTowerFromCastle)
+
+        
+        // keep
+        pencil.rememberSample(sceneWalkingAroundLabirintAtStart, new KnotDraftCharacter())
+        pencil.useScene(sceneWalkingAroundLabirintAtStart)
+
+        let knotDraftCharacter = pencil.constructKnot()
+
+        // keep
+        draftFabrikk.connectKnotToBottomStatement(bottomStatement, knotDraftCharacter)
+        pencil.putKnotConnectedToBottomStatement(knotDraftCharacter)
+
+
+        // keep
+        pencil.rememberSample(sceneWalkingAroundLabirintAtStart, new KnotFromStackingBottomMap())
+        pencil.useScene(sceneWalkingAroundLabirintAtStart)
+
+        let knotFromStackingBottomMap = pencil.constructKnot()
+
+        // keep
+        draftFabrikk.connectKnotToBottomStatement(bottomStatement, knotFromStackingBottomMap)
+        pencil.putKnotConnectedToBottomStatement(knotFromStackingBottomMap)
+
+
+        // keep
+        pencil.rememberSample(sceneWalkingAroundLabirintAtStart, new KnotBottomMapFlipped())
+        pencil.useScene(sceneWalkingAroundLabirintAtStart)
+
+        let knotBottomMapFlipped = pencil.constructKnot()
+
+        // keep
+        draftFabrikk.connectKnotToBottomStatement(bottomStatement, knotBottomMapFlipped)
+        pencil.putKnotConnectedToBottomStatement(knotBottomMapFlipped)
+
+
+        // keep
+        // pencil.rememberSample(sceneWalkingAroundLabirintAtStart, new KnotFromCharacterFromBottomMap())
+        // pencil.useScene(sceneWalkingAroundLabirintAtStart)
+
+        // let knotFromCharacterFromBottomMap = pencil.constructKnot()
+
+        // // keep
+        // draftFabrikk.connectKnotToBottomStatement(bottomStatement, knotFromCharacterFromBottomMap)
+        // pencil.putKnotConnectedToBottomStatement(knotFromCharacterFromBottomMap)
+
+
+        // keep !
+        // pencil.rememberSample(sceneWalkingAroundLabirintAtStart, new KnotBottomMap())
+        // pencil.useScene(sceneWalkingAroundLabirintAtStart)
+
+        // let knotBottomMap = pencil.constructKnot()
+
+        // // keep
+        // draftFabrikk.connectKnotToBottomStatement(bottomStatement, knotBottomMap)
+        // pencil.putKnotConnectedToBottomStatement(knotBottomMap)
+
+
+        // keep
+        pencil.draw()
+
+        // process.exit()
+
+        // keep original
+        // let /* keep knot */ [y0, x0] = [100, 100]
+        // let /* keep knot */ [y0Closing, x0Closing] = [200, 100]
+        // let /* keep knot */ [y1, x1] = [400, 100]
+        // let /* keep knot */ [y2, x2] = [400, 200]
+
+        // keep projection from profile, from-bottom-statement
+        // let PROJECTION_CENTER_Y = 200
+        // let PROJECTION_CENTER_X = 200
+
+        // let fromProjectionCenter = function(args) {
+        //     // keep
+        //     let [y,x] = args
+        //     return [
+        //         y + PROJECTION_CENTER_Y,
+        //         x + PROJECTION_CENTER_X
+        //     ]
+        // }
+
+        // // keep
+        // let /* keep original */ /* keep knot */ [y0, x0] = fromProjectionCenter([100, 100])
+        // let /* keep original */ /* keep knot */ [y0Closing, x0Closing] = fromProjectionCenter([200, 100])
+        // let /* keep original */ /* keep knot */ [y1, x1] = fromProjectionCenter([400, 100])
+        // let /* keep original */ /* keep knot */ [y2, x2] = fromProjectionCenter([400, 200])
+
+        // let [pointerStartingY, pointerStartingX] = /* keep */ fromProjectionCenter([200, 100])
+        // let [pointerFromBottomY, pointerFromBottomX] = /* keep */ fromProjectionCenter([250, 170])
+        // let [pointerAtTopRightY, pointerAtTopRightX] = /* keep */ fromProjectionCenter([400, 100])
+        // let [pointerAtTopLeftY, pointerAtTopLeftX] = /* keep */ fromProjectionCenter([290, 50])
+
+        // let pointerProfile = 40
+
+        // // let /* keep knot */ [y0, x0] = [100, 100]
+        // // let /* keep knot */ [y0Closing, x0Closing] = [200, 100]
+        // // let /* keep knot */ [y1, x1] = [400, 100]
+        // // let /* keep knot */ [y2, x2] = [400, 200]
+
+        // let ctx = document.querySelector('#scene').getContext('2d')
+        // ctx.beginPath()
+        // ctx.moveTo(y0, x0)
+        // ctx.lineTo(y0Closing, x0Closing)
+
+        // ctx.lineTo(y0Closing, x0Closing /* keep */ - pointerProfile)
+
+        // // alert(JSON.stringify({x0Closing, fromBottom: x0Closing /* keep */ - pointerProfile}))
+
+        
+        // ctx.moveTo(pointerFromBottomY, pointerFromBottomX)
+        // ctx.lineTo(pointerFromBottomY, pointerFromBottomX - pointerProfile)
+
+
+        // ctx.moveTo(pointerAtTopRightY, pointerAtTopRightX)
+        // ctx.lineTo(pointerAtTopRightY, pointerAtTopRightX - pointerProfile)
+
+        // ctx.moveTo(pointerAtTopLeftY, pointerAtTopLeftX)
+        // ctx.lineTo(pointerAtTopLeftY, pointerAtTopLeftX - pointerProfile)
+
+        // let pointerDebth = 40
+
+        // ctx.moveTo(pointerStartingY, pointerStartingX)
+
+        // // ctx.lineTo(pointerFromBottomY, pointerFromBottomX, pointerFromBottomY, pointerFromBottomX + pointerDebth, 100)
+        // ctx.lineTo(pointerFromBottomY, pointerFromBottomX)
+
+        // ctx.moveTo(pointerFromBottomY, pointerFromBottomX)
+        // ctx.lineTo(pointerAtTopRightY, pointerAtTopRightX)
+
+        // ctx.moveTo(pointerAtTopRightY, pointerAtTopRightX)
+        // ctx.lineTo(pointerAtTopLeftY, pointerAtTopLeftX)
+
+        // ctx.lineTo(pointerAtTopLeftY, pointerAtTopLeftX)
+        // ctx.lineTo(pointerStartingY, pointerStartingX)
+
+        // ctx.stroke()
+
+        // for(let k = 1; k <= 2; k++) {        
+        //     var [pointerStartingYAnother, pointerStartingXAnother] = /* keep */ fromProjectionCenter([200, 100 - pointerProfile * (k)])
+        //     var [pointerFromBottomYAnother, pointerFromBottomXAnother] = /* keep */ fromProjectionCenter([250, 170 - pointerProfile * (k)])
+        //     var [pointerAtTopRightYAnother, pointerAtTopRightXAnother] = /* keep */ fromProjectionCenter([400, 100 - pointerProfile * (k)])
+        //     var [pointerAtTopLeftYAnother, pointerAtTopLeftXAnother] = /* keep */ fromProjectionCenter([290, 50 - pointerProfile * (k)])
+            
+            
+        //     ctx.beginPath()
+
+        //     ctx.moveTo(pointerStartingYAnother, pointerStartingXAnother)
+        //     ctx.lineTo(pointerStartingYAnother, pointerStartingXAnother - pointerProfile)
+
+        //     ctx.moveTo(pointerFromBottomYAnother, pointerFromBottomXAnother)
+        //     ctx.lineTo(pointerFromBottomYAnother, pointerFromBottomXAnother - pointerProfile)
+
+        //     ctx.moveTo(pointerAtTopRightYAnother, pointerAtTopRightXAnother)
+        //     ctx.lineTo(pointerAtTopRightYAnother, pointerAtTopRightXAnother - pointerProfile)
+
+        //     ctx.moveTo(pointerAtTopLeftYAnother, pointerAtTopLeftXAnother)
+        //     ctx.lineTo(pointerAtTopLeftYAnother, pointerAtTopLeftXAnother - pointerProfile)
+
+
+        //     // let pointerDebth = 40
+
+        //     ctx.moveTo(pointerStartingYAnother, pointerStartingXAnother)
+        //     ctx.lineTo(pointerFromBottomYAnother, pointerFromBottomXAnother)
+
+        //     ctx.moveTo(pointerFromBottomYAnother, pointerFromBottomXAnother)
+        //     ctx.lineTo(pointerAtTopRightYAnother, pointerAtTopRightXAnother)
+
+        //     ctx.moveTo(pointerAtTopRightYAnother, pointerAtTopRightXAnother)
+        //     ctx.lineTo(pointerAtTopLeftYAnother, pointerAtTopLeftXAnother)
+
+        //     ctx.moveTo(pointerAtTopLeftYAnother, pointerAtTopLeftXAnother)
+        //     ctx.lineTo(pointerStartingYAnother, pointerStartingXAnother)
+
+
+        //     ctx.stroke()
+
+        // }
+        // // closing
+
+
+        // for(let k = 3; k <= 3; k++) {
+        //     var [pointerStartingYAnother, pointerStartingXAnother] = /* keep */ [200, 100 - pointerProfile * (k)]
+        //     var [pointerFromBottomYAnother, pointerFromBottomXAnother] = /* keep */ [250, 170 - pointerProfile * (k)]
+        //     var [pointerAtTopRightYAnother, pointerAtTopRightXAnother] = /* keep */ [400, 100 - pointerProfile * (k)]
+        //     var [pointerAtTopLeftYAnother, pointerAtTopLeftXAnother] = /* keep */ [290, 50 - pointerProfile * (k)]
+            
+
+        //     ctx.beginPath()
+
+        //     // []
+
+        //     var [startingMiddleFromY, startingMiddleFromX] = fromProjectionCenter([pointerStartingYAnother, pointerStartingXAnother])
+        //     var [startingMiddleToYAtClosing, startingMiddleToXAtClosing] = fromProjectionCenter(
+        //         [(pointerFromBottomYAnother + pointerStartingYAnother) / 2, (pointerFromBottomXAnother + pointerStartingXAnother) / 2]
+        //     )
+
+        //     ctx.moveTo(startingMiddleFromY, startingMiddleFromX)
+        //     ctx.lineTo(startingMiddleToYAtClosing, startingMiddleToXAtClosing + pointerProfile / 2)
+
+
+        //     // keep fromBottom
+        //     var [pointerMiddleFromBottomFromY, pointerMiddleFromBotttomX] = fromProjectionCenter([pointerFromBottomYAnother, pointerFromBottomXAnother])
+
+        //     ctx.moveTo(startingMiddleToYAtClosing, startingMiddleToXAtClosing + pointerProfile / 2)
+        //     ctx.lineTo(pointerMiddleFromBottomFromY, pointerMiddleFromBotttomX)
+
+
+        //     // keep
+        //     var [pointerMiddleFromBottomToYAtClosing, pointerMiddleFromBottomToXAtClosing] = fromProjectionCenter(
+        //         [(pointerAtTopRightYAnother + pointerFromBottomYAnother) / 2, (pointerAtTopRightXAnother + pointerFromBottomXAnother) / 2]
+        //     )
+
+
+        //     ctx.moveTo(pointerMiddleFromBottomFromY, pointerMiddleFromBotttomX)
+        //     ctx.lineTo(pointerMiddleFromBottomToYAtClosing, pointerMiddleFromBottomToXAtClosing + pointerProfile / 2)
+
+
+        //     // keep fromTopRight
+        //     var [pointerMiddleFromTopRightFromY, pointerMiddleFromTopRightX] = fromProjectionCenter([pointerAtTopRightYAnother, pointerAtTopRightXAnother])
+
+        //     ctx.moveTo(pointerMiddleFromBottomToYAtClosing, pointerMiddleFromBottomToXAtClosing + pointerProfile / 2)
+        //     ctx.lineTo(pointerMiddleFromTopRightFromY, pointerMiddleFromTopRightX)
+
+
+        //     // keep
+        //     var [pointerMiddleFromTopRightToYAtClosing, pointerMiddleFromTopRightToXAtClosing] = fromProjectionCenter(
+        //         [(pointerAtTopLeftYAnother + pointerAtTopRightYAnother) / 2, (pointerAtTopLeftXAnother + pointerAtTopRightXAnother) / 2]
+        //     )
+        //     ctx.moveTo(pointerMiddleFromTopRightFromY, pointerMiddleFromTopRightX)
+        //     ctx.lineTo(pointerMiddleFromTopRightToYAtClosing, pointerMiddleFromTopRightToXAtClosing + pointerProfile / 2)
+
+
+        //     // keep fromTopLeft
+        //     var [pointerMiddleFromTopLeftFromY, pointerMiddleFromTopLeftFromX] = fromProjectionCenter([pointerAtTopLeftYAnother, pointerAtTopLeftXAnother])
+
+        //     ctx.moveTo(pointerMiddleFromTopRightToYAtClosing, pointerMiddleFromTopRightToXAtClosing + pointerProfile / 2)
+        //     ctx.lineTo(pointerMiddleFromTopLeftFromY, pointerMiddleFromTopLeftFromX)
+
+
+        //     // keep
+        //     var [pointerMiddleFromTopLeftToYAtClosing, pointerMiddleFromTopLeftToXAtClosing] = fromProjectionCenter(
+        //         [(pointerAtTopLeftYAnother + pointerStartingYAnother) / 2, (pointerAtTopLeftXAnother + pointerStartingXAnother) / 2]
+        //     )
+        //     ctx.moveTo(pointerMiddleFromTopLeftFromY, pointerMiddleFromTopLeftFromX)
+        //     ctx.lineTo(pointerMiddleFromTopLeftToYAtClosing, pointerMiddleFromTopLeftToXAtClosing + pointerProfile / 2)
+            
+
+        //     // keep closing
+        //     ctx.moveTo(pointerMiddleFromTopLeftToYAtClosing, pointerMiddleFromTopLeftToXAtClosing + pointerProfile / 2)
+        //     ctx.lineTo(startingMiddleFromY, startingMiddleFromX)
+
+
+        //     ctx.stroke()
+        // }
+
+        
+        // // keep
+        // // ctx.moveTo(y0Closing, x0Closing)
+        // // ctx.arcTo(y2, x2, y1, x1, 100)
+
+        // let [atPointerBelongingsYFromBottom, atPointerBelongingsXFromBottom] = fromProjectionCenter([250, 190])
+        // let [atPointerBelongingsYFromTopRight, atPointerBelongingsXFromTopRight] = fromProjectionCenter([400, 100])
+
+        // ctx.moveTo(y0Closing, x0Closing)
+        // ctx.bezierCurveTo(/* cp1 */ atPointerBelongingsYFromBottom, /* cp1 */ atPointerBelongingsXFromBottom, /* cp2 */ atPointerBelongingsYFromTopRight, /* cp2 */ atPointerBelongingsXFromTopRight, /* keep y */ pointerAtTopRightY , /* x */ pointerAtTopRightX)
+
+
+        // // keep
+        // ctx.moveTo(pointerAtTopRightY, pointerAtTopRightX)
+        // // keep
+        // let [atPointerBelongingsYFromTopRightClosing, atPointerBelongingsXFromTopRightClosing] = fromProjectionCenter([290, 50])
+        // let [atPointerBelongingsYFromTopLeft, atPointerBelongingsXFromTopLeft] = fromProjectionCenter([290, 50])
+
+        // ctx.bezierCurveTo(/* cp1 */ atPointerBelongingsYFromTopRightClosing, /* cp1 */ atPointerBelongingsXFromTopRightClosing, /* cp2 */ atPointerBelongingsYFromTopLeft, /* cp2 */ atPointerBelongingsXFromTopLeft, /* keep y */ pointerStartingY , /* x */ pointerStartingX)
+
+        // keep
+        let PROJECTION_CENTER_Y = /* keep 250 */ 100
+        let PROJECTION_CENTER_X = 100
+
+        // keep
+        let calc = function(expression) {
+            return expression
+        }
+
+        let fromProjectionCenter = function(args) {
+            // keep
+            let [y,x] = args
+            return [
+                y + PROJECTION_CENTER_Y,
+                x + PROJECTION_CENTER_X + 50
+            ]
+        }
+
+        // keep
+        // let /* keep original */ /* keep knot */ [y0, x0] = fromProjectionCenter([100, 100])
+        // let /* keep original */ /* keep knot */ [y0Closing, x0Closing] = fromProjectionCenter([200, 100])
+        // let /* keep original */ /* keep knot */ [y1, x1] = fromProjectionCenter([400, 100])
+        // let /* keep original */ /* keep knot */ [y2, x2] = fromProjectionCenter([400, 200])
+
+        // keep original
+        // keep front knot
+
+        // let /* keep knot */ [y0, x0] = fromProjectionCenter([100, 100])
+        // let /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [400, 100])
+        // let /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [400, 200])
+        // let /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100, 200])
+
+
+        let fromCtx = function(ctx) {
+
+            return {
+                moveTo: function(y, x) {
+                    return ctx.moveTo(x, y)
+                },
+                lineTo: function(y, x) {
+                    return ctx.lineTo(x, y)
+                },
+
+                // keep
+                arcTo: function(y1, x1, y2, x2, radius) {
+                    return ctx.arcTo(x1, y1, x2, y2, radius)
+                },
+                ellipse: function(y, x, yRadius, xRadois, rotation, startAngle, endAngle) {
+                    return ctx.ellipse(x, y, xRadois, yRadius, rotation, startAngle, endAngle)
+                }
+
+            }
+        }
+
+        let /* keep knot */ [y0, x0] = fromProjectionCenter([100, 100].reverse())
+        let /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [calc(400 * 1.7 * 1.4), 100].reverse())
+        let /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [calc(400 * 1.7 * 1.4), calc(200 * 1.7)].reverse())
+        let /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100, calc(200 * 1.7)].reverse())
+
+
+
+        let ctx = document.querySelector('#scene').getContext('2d')
+        ctx.beginPath()
+
+        fromCtx(ctx).moveTo(y0, x0)
+        fromCtx(ctx).lineTo(knotAtBottomRightY, knotAtBottomRightX)
+
+        fromCtx(ctx).moveTo(knotAtBottomRightY, knotAtBottomRightX)
+        fromCtx(ctx).lineTo(knotAtTopRightY, knotAtTopRightX)
+
+        fromCtx(ctx).moveTo(knotAtTopRightY, knotAtTopRightX)
+        fromCtx(ctx).lineTo(knotAtTopLeftY, knotAtTopLeftX)
+
+        fromCtx(ctx).moveTo(knotAtTopLeftY, knotAtTopLeftX)
+        fromCtx(ctx).lineTo(y0, x0)
+
+        ctx.stroke()
+
+
+        let constructKnotDraft = function(args) {
+            let [fromY, fromX] = args
+
+            var /* keep knot */ [y0, x0] = fromProjectionCenter([100, 100].reverse())
+            var /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [calc(400 * 1.7 * 1.4), 100].reverse())
+            var /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [calc(400 * 1.7 * 1.4), calc(200 * 1.7)].reverse())
+            var /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100, calc(200 * 1.7)].reverse())
+
+
+            var /* keep knot */ [y0, x0] = fromProjectionCenter([100 + fromY, 100 + fromX].reverse())
+            var /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [calc(400 * 1.7 * 1.4 + fromY), 100 + fromX].reverse())
+            var /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [calc(400 * 1.7 * 1.4 + fromY), calc(200 * 1.9 * 1.9 * 0.25 + fromX)].reverse())
+            var /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100 + fromY, calc(200 * 1.9 * 1.9 * 0.25 + fromX)].reverse())
+
+
+
+
+            let ctx = document.querySelector('#scene').getContext('2d')
+            ctx.beginPath()
+
+            fromCtx(ctx).moveTo(y0, x0)
+            fromCtx(ctx).lineTo(knotAtBottomRightY, knotAtBottomRightX)
+
+            fromCtx(ctx).moveTo(knotAtBottomRightY, knotAtBottomRightX)
+            fromCtx(ctx).lineTo(knotAtTopRightY, knotAtTopRightX)
+
+            fromCtx(ctx).moveTo(knotAtTopRightY, knotAtTopRightX)
+            fromCtx(ctx).lineTo(knotAtTopLeftY, knotAtTopLeftX)
+
+            fromCtx(ctx).moveTo(knotAtTopLeftY, knotAtTopLeftX)
+            fromCtx(ctx).lineTo(y0, x0)
+
+            ctx.stroke()
+        }
+
+
+        let constructStraightCubicKnotFromPointer = function(args) {
+            let [fromY, fromX] = args
+
+            var /* keep knot */ [y0, x0] = fromProjectionCenter([100, 100].reverse())
+            var /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [calc(400 * 1.7 * 1.4), 100].reverse())
+            var /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [calc(400 * 1.7 * 1.4), calc(200 * 1.7)].reverse())
+            var /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100, calc(200 * 1.7)].reverse())
+
+
+            var /* keep knot */ [y0, x0] = fromProjectionCenter([100 + fromY, 100 + fromX].reverse())
+            var /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [calc(400 * 1.7 * 1.4 + fromY), 100 + fromX].reverse())
+            var /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [calc(400 * 1.7 * 1.4 + fromY), calc(200 * 1.7 * 1.7 + fromX)].reverse())
+            var /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100 + fromY, calc(200 * 1.7 * 1.7 + fromX)].reverse())
+
+
+
+
+            let ctx = document.querySelector('#scene').getContext('2d')
+            ctx.beginPath()
+
+            fromCtx(ctx).moveTo(y0, x0)
+            fromCtx(ctx).lineTo(knotAtBottomRightY, knotAtBottomRightX)
+
+            fromCtx(ctx).moveTo(knotAtBottomRightY, knotAtBottomRightX)
+            fromCtx(ctx).lineTo(knotAtTopRightY, knotAtTopRightX)
+
+            fromCtx(ctx).moveTo(knotAtTopRightY, knotAtTopRightX)
+            fromCtx(ctx).lineTo(knotAtTopLeftY, knotAtTopLeftX)
+
+            fromCtx(ctx).moveTo(knotAtTopLeftY, knotAtTopLeftX)
+            fromCtx(ctx).lineTo(y0, x0)
+
+            ctx.stroke()
+        }
+
+
+        let constructKnotFromPointer = function(args) {
+            let [fromY, fromX] = args
+
+            var /* keep knot */ [y0, x0] = fromProjectionCenter([100, 100].reverse())
+            var /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [calc(400 * 1.7 * 1.4), 100].reverse())
+            var /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [calc(400 * 1.7 * 1.4), calc(200 * 1.7)].reverse())
+            var /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100, calc(200 * 1.7)].reverse())
+
+
+            var /* keep knot */ [y0, x0] = fromProjectionCenter([100 + fromY, 100 + fromX].reverse())
+            var /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [calc(400 * 1.7 * 1.4 + fromY), 100 + fromX].reverse())
+            var /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [calc(400 * 1.7 * 1.4 + fromY), calc(200 * 1.7 + fromX)].reverse())
+            var /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100 + fromY, calc(200 * 1.7 + fromX)].reverse())
+
+
+
+
+            let ctx = document.querySelector('#scene').getContext('2d')
+            ctx.beginPath()
+
+            fromCtx(ctx).moveTo(y0, x0)
+            fromCtx(ctx).lineTo(knotAtBottomRightY, knotAtBottomRightX)
+
+            fromCtx(ctx).moveTo(knotAtBottomRightY, knotAtBottomRightX)
+            fromCtx(ctx).lineTo(knotAtTopRightY, knotAtTopRightX)
+
+            fromCtx(ctx).moveTo(knotAtTopRightY, knotAtTopRightX)
+            fromCtx(ctx).lineTo(knotAtTopLeftY, knotAtTopLeftX)
+
+            fromCtx(ctx).moveTo(knotAtTopLeftY, knotAtTopLeftX)
+            fromCtx(ctx).lineTo(y0, x0)
+
+            ctx.stroke()
+        }
+
+
+        let constructKnotUseFromPointer = function(args) {
+            let [fromY, fromX] = args
+
+            var /* keep knot */ [y0, x0] = fromProjectionCenter([100, 100].reverse())
+            var /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [calc(400 * 1.7 * 1.4), 100].reverse())
+            var /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [calc(400 * 1.7 * 1.4), calc(200 * 1.7)].reverse())
+            var /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100, calc(200 * 1.7)].reverse())
+
+
+            var /* keep knot */ [y0, x0] = fromProjectionCenter([100 + fromY, 100 + fromX].reverse())
+            var /* keep knot */ [knotAtBottomRightY, knotAtBottomRightX] = fromProjectionCenter(/* keep */ /* [100, 400] */ [calc(100 * 1.7 * 1.4 + fromY), 100 + fromX].reverse())
+            var /* keep knot */ [knotAtTopRightY, knotAtTopRightX] = fromProjectionCenter(/* keep */ /*[200, 400]*/ [calc(100 * 1.7 * 1.4 + fromY), calc(200 * 1.7 + fromX)].reverse())
+            var /* keep knot */ [knotAtTopLeftY, knotAtTopLeftX] = fromProjectionCenter(/* keep */ /*[200, 100]*/ [100 + fromY, calc(200 * 1.7 + fromX)].reverse())
+
+
+            let ctx = document.querySelector('#scene').getContext('2d')
+            ctx.beginPath()
+
+            fromCtx(ctx).moveTo(y0, x0)
+            fromCtx(ctx).lineTo(knotAtBottomRightY, knotAtBottomRightX)
+
+            fromCtx(ctx).moveTo(knotAtBottomRightY, knotAtBottomRightX)
+            fromCtx(ctx).lineTo(knotAtTopRightY, knotAtTopRightX)
+
+            fromCtx(ctx).moveTo(knotAtTopRightY, knotAtTopRightX)
+            fromCtx(ctx).lineTo(knotAtTopLeftY, knotAtTopLeftX)
+
+            fromCtx(ctx).moveTo(knotAtTopLeftY, knotAtTopLeftX)
+            fromCtx(ctx).lineTo(y0, x0)
+
+            ctx.stroke()
+        }
+
+        // keep
+
+
+        constructKnotDraft([calc(100 - 100 - 200), 200 + 100])
+
+
+        constructKnotFromPointer([calc(100 - 100), 200 + 100 + 100])
+
+        constructKnotFromPointer([calc(100 - 100), 400 /* keep */ + 100 + 50 + 100])
+
+        constructKnotFromPointer([calc(100 - 100), 800 + 100])
+
+        constructKnotFromPointer([calc(100 - 100), 1000 + 50 + 100])
+
+        // keep
+        constructKnotUseFromPointer([calc(100 - 100 - 100 - 40), 200 + 100 + 100])
+
+        constructKnotUseFromPointer([calc(100 - 100 - 100 - 40), 400 /* keep */ + 100 + 50 + 100])
+
+        constructKnotUseFromPointer([calc(100 - 100 - 100 - 40), 800 + 100])
+
+        constructKnotUseFromPointer([calc(100 - 100 - 100 - 40), 1000 + 50 + 100])
+
+        // keep
+
+
+        // keep
+
+        constructKnotFromPointer([calc(100 - 100), 250 /* keep */ + 400 + 200 /* keep */ + 800 + 400])
+        constructKnotFromPointer([calc(100 - 100), 400 + 100 /* keep */ + 400 + 200 /* keep */ + 800 + 400])
+
+
+        constructKnotFromPointer([calc(100 - 100), 400 + 250 + 100 /* keep */ + 400 + 200 /* keep */ + 800 + 400])
+
+        constructKnotFromPointer([calc(100 - 100), 700 + 250 + 50 /* keep */ + 400 + 200 /* keep */ + 800 + 400])
+
+
+        constructKnotFromPointer([calc(100 - 100), 1000 + 250 /* keep */ + 400 + 200 /* keep */ + 800 + 400])
+
+
+        // keep
+        constructKnotUseFromPointer([calc(100 - 100 - 100 - 40), 250 /* keep */ + 800 + 400 /* keep */ + 400 + 200])
+        constructKnotUseFromPointer([calc(100 - 100 - 100 - 40), 400 + 100 /* keep */ + 800 + 400 /* keep */ + 400 + 200])
+
+
+        constructKnotUseFromPointer([calc(100 - 100 - 100 - 40), 1000 + 250 /* keep */ + 800 + 400  /* keep */ + 400 + 200])
+
+
+
+
+        // keep
+        constructStraightCubicKnotFromPointer([calc(100 - 100 - 200), 200 + 100 /* keep */ + 50 /* keep */ + 800 + 400])
+
+        constructKnotDraft([calc(100 - 100 - 200), 200 + 50 /* keep */ + 800 + 400])
+
+
+
+
+
+        // keep
+        /* keep knot */ ctx.addEventListener('click', function(event) {
+            let providedY = event.clientY
+            let providedX = event.clientX
+
+            alert(JSON.stringify({providedY, providedX}))
+            // keep
+        })
+
+
+        // ctx.stroke()
+        // keep !
+    </script>
+
+</body>
+</html>
